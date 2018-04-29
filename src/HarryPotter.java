@@ -10,6 +10,7 @@ public class HarryPotter {
 	
 	HarryPotter() {
 		System.out.println("making Harry Potter...");
+		
 	}
 
 	void castSpell(String spell){
@@ -31,6 +32,13 @@ System.out.println("casting spell: " + spell);
 
 	public static void main(String[] args) {
 		// 1. make harry potter
+	
+	HarryPotter a = new HarryPotter();
+	a.makeInvisible(true);
+	a.spyOnSnape();
+	a.makeInvisible(false);
+	a.castSpell("Stupefy");
+		
 		// 2. become invisible
 		// 3. spy on professor snape
 		// 4. become visible again
